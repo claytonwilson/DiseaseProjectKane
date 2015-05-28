@@ -27,6 +27,6 @@ def checkIfFatal(person):
                 listofNumberOfDead.append(dead)
             else:
                 listOfTimeDatesCounter += 1
-                listOfTimeDates.append(ListOfTimeDatesCounter)
+                listOfTimeDates.append(listOfTimeDatesCounter)
                 
                 
