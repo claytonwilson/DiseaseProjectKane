@@ -1,0 +1,32 @@
+#Edit main with this for graphing to work needs to store variables
+listOfNumberofDeadPeople = []#contains things for tests
+listOfPopulationOfPeople = []#^what he said
+listOfNumberOfInfected = []#^^what he said
+listofNumberOfDead = []#^^^what he said
+listOfTimeDates = []#its easier this way itll have a counter later
+ListOfTimeDatesCounter = 0
+
+
+
+
+
+
+def checkIfFatal(person):
+        deadPerInfected = rNaught
+        while deadPerInfected > 0:
+            selectedPerson = random.choice(popList)
+            if selectedPerson.infected == True:
+                numberDead += 1
+                listOfNumberofDeadPeople.append(numberDead) 
+                population -= 1
+                listOfPopulationOfPeople.append(population)
+                numberInfected = numberInfected - 1
+                listofNumberOfInfected.append(numberInfected)
+                dead += 1
+                deadPerInfected -= 1 #what is this? if it doesnt need to be graphed just remove this? -clayton
+                listofNumberOfDead.append(dead)
+            else:
+                listOfTimeDatesCounter += 1
+                listOfTimeDates.append(ListOfTimeDatesCounter)
+                
+                
